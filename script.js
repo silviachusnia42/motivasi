@@ -8,7 +8,7 @@ const data = {
   ],
   biasa: [
     { text: "Pelan-pelan juga tetap sampai 🌱", img: "pelan.jpeg" },
-    { text: "Setiap langkah kecil berarti 🌿", img: "pelan.jpeg" },
+    { text: "Setiap langkah kecil sangat berarti 🌿", img: "pelan.jpeg" },
     { text: "Biasa hari ini, luar biasa besok ✨", img: "pelan.jpeg" }
   ],
   capek: [
@@ -55,4 +55,5 @@ function simpanQuote() {
 function toggleDark() {
   document.body.classList.toggle("dark");
 }
+
 
