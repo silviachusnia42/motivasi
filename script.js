@@ -11,7 +11,7 @@ const data = {
     { text: "Setiap langkah kecilmu sangat berarti 🤗", img: "pelan.jpeg" },
     { text: "Biasa hari ini, luar biasa besok 💗", img: "pelan.jpeg" }
   ],
-  // capek: [
+  capek: [
     { text: "Istirahat bukan berarti gagal, tetapi strategi agar bisa melangkah lebih jauh 🥰🤍", img: "istirahat.jpeg" },
     { text: "Capek itu sinyal untuk berhenti sejenak 😴", img: "istirahat.jpeg" },
     { text: "Kamu sudah berusaha cukup hari ini 💪", img: "istirahat.jpeg" }
@@ -55,6 +55,7 @@ function simpanQuote() {
 function toggleDark() {
   document.body.classList.toggle("dark");
 }
+
 
 
 
