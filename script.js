@@ -3,18 +3,18 @@ let mood = "biasa";
 const data = {
   senang: [
     { text: "Syukuri hal kecil hari ini ✨", img: "syukuri.jpeg" },
-    { text: "Hari ini penuh dengan kemungkinan 🌟", img: "calm1.jpeg" },
+    { text: "Hari ini penuh dengan hal baik 🌟", img: "syukuri.jpeg" },
     { text: "Senang itu energi positif 💖", img: "syukuri.jpeg" }
   ],
   biasa: [
     { text: "Pelan-pelan juga tetap sampai 🌱", img: "pelan.jpeg" },
-    { text: "Setiap langkah kecil berarti 🌿", img: "calm1.jpeg" },
+    { text: "Setiap langkah kecil berarti 🌿", img: "pelan.jpeg" },
     { text: "Biasa hari ini, luar biasa besok ✨", img: "pelan.jpeg" }
   ],
   capek: [
     { text: "Istirahat bukan berarti gagal 🤍", img: "istirahat.jpeg" },
     { text: "Capek itu sinyal untuk berhenti sejenak 😴", img: "istirahat.jpeg" },
-    { text: "Kamu sudah berusaha cukup hari ini 💪", img: "calm1.jpeg" }
+    { text: "Kamu sudah berusaha cukup hari ini 💪", img: "istirahat.jpeg" }
   ]
 };
 
@@ -55,3 +55,4 @@ function simpanQuote() {
 function toggleDark() {
   document.body.classList.toggle("dark");
 }
+
