@@ -2,13 +2,19 @@ let mood = "biasa";
 
 const data = {
   senang: [
-    { text: "Syukuri hal kecil hari ini ✨", img: "syukuri.jpeg" }
+    { text: "Syukuri hal kecil hari ini ✨", img: "syukuri.jpeg" },
+    { text: "Hari ini penuh dengan kemungkinan 🌟", img: "calm1.jpeg" },
+    { text: "Senang itu energi positif 💖", img: "syukuri.jpeg" }
   ],
   biasa: [
-    { text: "Pelan-pelan juga tetap sampai 🌱", img: "pelan.jpeg" }
+    { text: "Pelan-pelan juga tetap sampai 🌱", img: "pelan.jpeg" },
+    { text: "Setiap langkah kecil berarti 🌿", img: "calm1.jpeg" },
+    { text: "Biasa hari ini, luar biasa besok ✨", img: "pelan.jpeg" }
   ],
   capek: [
-    { text: "Istirahat bukan berarti gagal 🤍", img: "istirahat.jpeg" }
+    { text: "Istirahat bukan berarti gagal 🤍", img: "istirahat.jpeg" },
+    { text: "Capek itu sinyal untuk berhenti sejenak 😴", img: "istirahat.jpeg" },
+    { text: "Kamu sudah berusaha cukup hari ini 💪", img: "calm1.jpeg" }
   ]
 };
 
