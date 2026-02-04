@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(#cfe9ff, #ffffff);
+}
+
+.app {
+  max-width: 420px;
+  margin: auto;
+  padding: 15px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 18px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.mood button {
+  font-size: 24px;
+  margin: 5px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+}
+
+textarea {
+  height: 80px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  background: #6c9eff;
+  color: white;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.main-btn {
+  width: 100%;
+}
+
+.dark-btn {
+  width: 100%;
+  margin-top: 20px;
+  background: #333;
+}
+
+.note {
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+/* DARK MODE */
+.dark {
+  background: #121212;
+  color: white;
+}
+
+.dark .card {
+  background: #1e1e1e;
+}
+
+.dark button {
+  background: #444;
+}

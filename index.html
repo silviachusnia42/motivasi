@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Motivasi Harian</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/jpeg" href="HERMAN 3X4 ABU.JPG">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <h1>🌱 Motivasi Harian</h1>
+  <p class="subtitle">Teman tenang untuk pelajar</p>
+
+  <!-- MOOD -->
+  <div class="card">
+    <h3>Apa yang kamu rasakan hari ini?</h3>
+    <div class="mood">
+      <button onclick="setMood('senang')">😄</button>
+      <button onclick="setMood('biasa')">😐</button>
+      <button onclick="setMood('capek')">😔</button>
+    </div>
+    <p id="moodText"></p>
+  </div>
+
+  <!-- MOTIVASI -->
+  <div class="card">
+    <img id="image" src="calm1.jpeg" alt="motivasi">
+    <p id="quote">Pelan-pelan juga tetap sampai 🌱</p>
+    <button class="main-btn" onclick="nextQuote()">Motivasi Baru</button>
+  </div>
+
+  <!-- TARGET -->
+  <div class="card">
+    <h3>🎯 Target kecil hari ini</h3>
+    <input type="text" id="targetInput" placeholder="contoh: baca 5 halaman">
+    <button onclick="simpanTarget()">Simpan</button>
+    <p id="targetHasil"></p>
+  </div>
+
+  <!-- JURNAL -->
+  <div class="card">
+    <h3>📝 Tulis perasaanmu</h3>
+    <textarea placeholder="Tulis apa saja, ini hanya untukmu..."></textarea>
+    <p class="note">Tidak disimpan & tidak dibagikan 🤍</p>
+  </div>
+
+  <!-- DARK MODE -->
+  <button class="dark-btn" onclick="toggleDark()">🌙 Mode Malam</button>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
